@@ -1,0 +1,39 @@
+{
+  "name": "www.seotutor.xyz",
+  "short_name": "Safril Adi",
+  "start_url": "https://www.seotutor.xyz",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f5f5",
+  "theme_color": "#04549d",
+  "description": "All about SEO tutorial, tips and trick, and how to boost your page to #1 in Google",
+  "icons": [{
+    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s48/amp.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s72/amp.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s96/amp.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s144/amp.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s168/amp.png",
+    "sizes": "168x168",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s192/amp.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s512-rw/amp.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
