@@ -1,38 +1,38 @@
 {
-  "name": "www.seotutor.xyz",
-  "short_name": "Safril Adi",
-  "start_url": "https://www.seotutor.xyz",
+  "name": "www.pesonagaib.com",
+  "short_name": "ki Anom Jati",
+  "start_url": "https://www.pesonagaib.com",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#f5f5f5",
-  "theme_color": "#04549d",
-  "description": "All about SEO tutorial, tips and trick, and how to boost your page to #1 in Google",
+  "background_color": "#ffffff",
+  "theme_color": "#60a917",
+  "description": "Pusat Penjualan Azimat, Benda Pusaka, Batu Mustika, Minyak Mistik, Aneka Tasbih, dan Barang Antik.",
   "icons": [{
-    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s48/amp.png",
+    "src": "https://3.bp.blogspot.com/-skfVu5wA6-E/XFOQsUUmadI/AAAAAAAAIGI/gPX1FERzQpQnjBDVvn33GTCw0HI2YrvEwCLcBGAs/s48/favicon.png",
     "sizes": "48x48",
     "type": "image/png"
   }, {
-    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s72/amp.png",
+    "src": "https://3.bp.blogspot.com/-skfVu5wA6-E/XFOQsUUmadI/AAAAAAAAIGI/gPX1FERzQpQnjBDVvn33GTCw0HI2YrvEwCLcBGAs/s72/favicon.png",
     "sizes": "72x72",
     "type": "image/png"
   }, {
-    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s96/amp.png",
+    "src": "https://3.bp.blogspot.com/-skfVu5wA6-E/XFOQsUUmadI/AAAAAAAAIGI/gPX1FERzQpQnjBDVvn33GTCw0HI2YrvEwCLcBGAs/s96/favicon.png",
     "sizes": "96x96",
     "type": "image/png"
   }, {
-    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s144/amp.png",
+    "src": "https://3.bp.blogspot.com/-skfVu5wA6-E/XFOQsUUmadI/AAAAAAAAIGI/gPX1FERzQpQnjBDVvn33GTCw0HI2YrvEwCLcBGAs/s144/favicon.png",
     "sizes": "144x144",
     "type": "image/png"
   }, {
-    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s168/amp.png",
+    "src": "https://3.bp.blogspot.com/-skfVu5wA6-E/XFOQsUUmadI/AAAAAAAAIGI/gPX1FERzQpQnjBDVvn33GTCw0HI2YrvEwCLcBGAs/s168/favicon.png",
     "sizes": "168x168",
     "type": "image/png"
   }, {
-    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s192/amp.png",
+    "src": "https://3.bp.blogspot.com/-skfVu5wA6-E/XFOQsUUmadI/AAAAAAAAIGI/gPX1FERzQpQnjBDVvn33GTCw0HI2YrvEwCLcBGAs/s192/favicon.png",
     "sizes": "192x192",
     "type": "image/png"
   }, {
-    "src": "https://1.bp.blogspot.com/-Ktsa62xtoU4/WxaE7LVZdGI/AAAAAAAAx_E/YBYYOwwYKd820im1gnaNRaAgcwl0Bf6_gCLcBGAs/s512-rw/amp.png",
+    "src": "https://3.bp.blogspot.com/-skfVu5wA6-E/XFOQsUUmadI/AAAAAAAAIGI/gPX1FERzQpQnjBDVvn33GTCw0HI2YrvEwCLcBGAs/s512-rw/favicon.png",
     "sizes": "512x512",
     "type": "image/png"
   }]
