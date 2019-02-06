@@ -1,11 +1,11 @@
 {
   "name": "www.pesonagaib.com",
-  "short_name": "ki Anom Jati",
+  "short_name": "Pesona Gaib",
   "start_url": "https://www.pesonagaib.com",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#ffffff",
-  "theme_color": "#60a917",
+  "background_color": "#262626",
+  "theme_color": "#262626",
   "description": "Pusat Penjualan Azimat, Benda Pusaka, Batu Mustika, Minyak Mistik, Aneka Tasbih, dan Barang Antik.",
   "icons": [{
     "src": "https://3.bp.blogspot.com/-skfVu5wA6-E/XFOQsUUmadI/AAAAAAAAIGI/gPX1FERzQpQnjBDVvn33GTCw0HI2YrvEwCLcBGAs/s48/favicon.png",
