@@ -1,0 +1,83 @@
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>WETON</title>
+    <script type="text/javascript">
+        function HitungHari(TanggalMasukan) {
+        hari_a=TanggalMasukan.getDay();
+
+        if (hari_a==0) hari="Minggu";
+        else if (hari_a==1) hari="Senin";
+        else if (hari_a==2) hari="Selasa";
+        else if (hari_a==3) hari="Rabu";
+        else if (hari_a==4) hari="Kamis";
+        else if (hari_a==5) hari="Jumat";
+        else if (hari_a==6) hari="Sabtu";
+
+        return(hari);
+        }
+        function HitungPasaran(TanggalMasukan) {
+        inisial=new Date(70,0,2);
+        hasil_bagi=((TanggalMasukan.getTime()-inisial.getTime())+86400000)/432000000;
+        sisa=Math.round((hasil_bagi-Math.floor(hasil_bagi))*10)/2;
+
+        if (sisa==0) pasaran="Wage";
+        else if (sisa==1) pasaran="Kliwon";
+        else if (sisa==2) pasaran="Legi";
+        else if (sisa==3) pasaran="Pahing";
+        else if (sisa==4) pasaran="Pon";
+
+        return(pasaran);
+        }
+        function Ramalkan(form) {
+        if ((!form.TanggalKamu.value)|(!form.TahunKamu.value))
+        {
+        alert("Data kurang! Input tidak bisa diproses!")
+        }
+        else {
+        TanggalMasukanKamu=new Date(form.TahunKamu.value, (form.BulanKamu.selectedIndex), form.TanggalKamu.value);
+        hariKamu=HitungHari(TanggalMasukanKamu);
+        pasaranKamu=HitungPasaran(TanggalMasukanKamu);
+        document.write("<P>Hari kelahiran atau hari pasaran (weton) anda adalah <B> "+hariKamu + " " + pasaranKamu+"</B></P>");
+
+        }
+        }
+       
+        </script>
+    </head>
+    <body>
+        <form method='post' name='my_form' >
+            <table border="2" cellpadding="5px" align="center">
+                <tr>
+                    <td>
+                        <table id="font">
+                            <caption><b>Primbon Tanggal Lahir</b></caption>
+                            <tr>
+                                <td><input type="text" name="TanggalKamu" size="2" /></td>
+                                <td><select name="BulanKamu"><OPTION selected value=1>Januari
+                                    <OPTION value=2>Februari
+                                    <OPTION value=3>Maret
+                                    <OPTION value=4>April
+                                    <OPTION value=5>Mei
+                                    <OPTION value=6>Juni
+                                    <OPTION value=7>Juli
+                                    <OPTION value=8>Agustus
+                                    <OPTION value=9>September
+                                    <OPTION value=10>Oktober
+                                    <OPTION value=11>Nopember
+                                    <OPTION value=12>Desember</OPTION></select></td>
+                                <td><input type="text" name="TahunKamu" size="4" /></td>
+                            </tr>
+                            
+                            <tr>
+                                <td colspan="3" align="center">
+                                <INPUT maxLength=256 onclick=Ramalkan(this.form) type=button value="Hitung Weton"/></td>
+                            </tr>
+                            </table>
+                    </td>
+                </tr>
+               
+            </table>
+        </form>
+    </body>
+</html> 
