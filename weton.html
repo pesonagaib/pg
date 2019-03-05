@@ -47,11 +47,11 @@
     </head>
     <body>
         <form method='post' name='my_form' >
-            <table border="2" cellpadding="5px" align="center">
+            <table align="center">
                 <tr>
                     <td>
                         <table id="font">
-                            <caption><b>Primbon Tanggal Lahir</b></caption>
+                            <caption><b>Masukkan Tanggal Lahir Anda</b></caption>
                             <tr>
                                 <td><input type="text" name="TanggalKamu" size="2" /></td>
                                 <td><select name="BulanKamu"><OPTION selected value=1>Januari
@@ -67,11 +67,7 @@
                                     <OPTION value=11>Nopember
                                     <OPTION value=12>Desember</OPTION></select></td>
                                 <td><input type="text" name="TahunKamu" size="4" /></td>
-                            </tr>
-                            
-                            <tr>
-                                <td colspan="3" align="center">
-                                <INPUT maxLength=256 onclick=Ramalkan(this.form) type=button value="Hitung Weton"/></td>
+                                <td><INPUT maxLength=256 onclick=Ramalkan(this.form) type=button value="Hitung"/></td>
                             </tr>
                             </table>
                     </td>
