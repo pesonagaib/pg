@@ -44,7 +44,7 @@
         TanggalMasukanKamu=new Date(form.TahunKamu.value, (form.BulanKamu.selectedIndex), form.TanggalKamu.value);
         hariKamu=HitungHari(TanggalMasukanKamu);
         pasaranKamu=HitungPasaran(TanggalMasukanKamu);
-        document.write("<P style="color:white;text-align:center;">Hari kelahiran atau hari pasaran (weton) anda adalah <B> "+hariKamu + " " + pasaranKamu+"</B></P>");
+        document.write("<P>Hari kelahiran atau hari pasaran (weton) anda adalah <B> "+hariKamu + " " + pasaranKamu+"</B></P>");
 
         }
         }
@@ -73,11 +73,7 @@
                                     <OPTION value=11>Nopember
                                     <OPTION value=12>Desember</OPTION></select></td>
                                 <td><input type="text" name="TahunKamu" size="4" /></td>
-                            </tr>
-                            
-                            <tr>
-                                <td colspan="3" align="center">
-                                <INPUT maxLength=256 onclick=Ramalkan(this.form) type=button value="Hitung"/></td>
+								<td><INPUT maxLength=256 onclick=Ramalkan(this.form) type=button value="Hitung"/></td>
                             </tr>
                             </table>
                     </td>
